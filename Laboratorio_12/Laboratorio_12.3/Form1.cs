@@ -1,6 +1,4 @@
-﻿using System.Windows.Forms;
-
-namespace Laboratorio_12
+namespace Laboratorio_12._3
 {
     public partial class Form1 : Form
     {

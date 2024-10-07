@@ -1,4 +1,5 @@
-﻿namespace Laboratorio_12
+﻿
+namespace Laboratorio_12
 {
     partial class Form1
     {

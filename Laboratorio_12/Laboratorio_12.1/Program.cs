@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Laboratorio_12
+namespace Laboratorio_12.1
 {
     internal static class Program
     {
