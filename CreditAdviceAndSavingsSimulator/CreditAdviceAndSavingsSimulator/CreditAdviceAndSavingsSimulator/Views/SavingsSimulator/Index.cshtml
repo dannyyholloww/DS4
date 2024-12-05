@@ -1,0 +1,20 @@
+﻿@model CreditAdviceAndSavingsSimulator.Models.SavingsPlanModel
+
+<div class="savings-container">
+    <h2>Simulador de Ahorro Bancario</h2>
+    <form asp-action="Simulate" method="post" class="savings-form">
+        <div class="form-group">
+            <label for="InitialAmount">Monto Inicial:</label>
+            <input asp-for="InitialAmount" class="form-control" placeholder="Ingresa el monto inicial" />
+        </div>
+        <div class="form-group">
+            <label for="MonthlySavings">Ahorro Mensual:</label>
+            <input asp-for="MonthlySavings" class="form-control" placeholder="Ingresa el monto mensual" />
+        </div>
+        <div class="form-group">
+            <label for="DurationMonths">Duración (meses):</label>
+            <input asp-for="DurationMonths" class="form-control" placeholder="Ingresa la duración en meses" />
+        </div>
+        <button type="submit" class="btn btn-submit">Simular Ahorro</button>
+    </form>
+</div>

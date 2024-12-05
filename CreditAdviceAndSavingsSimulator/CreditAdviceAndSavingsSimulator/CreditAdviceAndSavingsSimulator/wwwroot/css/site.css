@@ -1,0 +1,198 @@
+/* Estilo general del contenedor */
+.advice-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+    .advice-container h2 {
+        color: #003366;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+/* Formulario */
+.advice-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+    .advice-form .form-group label {
+        font-size: 14px;
+        color: #003366;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .advice-form .form-control {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+        .advice-form .form-control::placeholder {
+            color: #aaa;
+        }
+
+    .advice-form .btn-submit {
+        background-color: #003366;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .advice-form .btn-submit:hover {
+            background-color: #0055a5;
+        }
+
+/* Resultado del consejo */
+.advice-result-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+    .advice-result-container h2 {
+        color: #003366;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .advice-result-container .advice-result {
+        font-size: 18px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .advice-result-container .btn-submit {
+        background-color: #003366;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .advice-result-container .btn-submit:hover {
+            background-color: #0055a5;
+        }
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .advice-container,
+    .advice-result-container {
+        width: 90%;
+    }
+
+    .btn-submit {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+/* Estilo general del contenedor */
+.savings-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+    /* Título */
+    .savings-container h2 {
+        color: #003366;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+/* Formulario */
+.savings-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Estilo para los grupos de formulario */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+    /* Etiquetas */
+    .form-group label {
+        font-size: 14px;
+        color: #003366;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+/* Campos de entrada */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+    /* Placeholder */
+    .form-control::placeholder {
+        color: #aaa;
+    }
+
+/* Botón */
+.btn-submit {
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .btn-submit:hover {
+        background-color: #0055a5;
+    }
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .savings-container {
+        width: 90%;
+    }
+
+    .btn-submit {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}

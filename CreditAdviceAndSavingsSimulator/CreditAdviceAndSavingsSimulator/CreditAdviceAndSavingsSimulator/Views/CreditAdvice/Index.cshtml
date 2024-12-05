@@ -1,0 +1,20 @@
+﻿@model CreditAdviceAndSavingsSimulator.Models.FinancialDetailsModel
+
+<div class="advice-container">
+    <h2>Generador de Consejos para Mejorar el Puntaje Crediticio</h2>
+    <form asp-action="GenerateAdvice" method="post" class="advice-form">
+        <div class="form-group">
+            <label for="MonthlyIncome">Ingresos Mensuales:</label>
+            <input asp-for="MonthlyIncome" class="form-control" placeholder="Ingresa tus ingresos mensuales" />
+        </div>
+        <div class="form-group">
+            <label for="TotalDebt">Total de Deudas:</label>
+            <input asp-for="TotalDebt" class="form-control" placeholder="Ingresa el total de tus deudas" />
+        </div>
+        <div class="form-group">
+            <label for="MonthlyPayments">Pagos Mensuales:</label>
+            <input asp-for="MonthlyPayments" class="form-control" placeholder="Ingresa tus pagos mensuales" />
+        </div>
+        <button type="submit" class="btn-submit">Generar Consejos</button>
+    </form>
+</div>
